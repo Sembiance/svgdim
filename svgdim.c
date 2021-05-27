@@ -69,6 +69,6 @@ int main(int argc, char ** argv)
 	rsvg_handle_get_dimensions(handle, &dim);
 	g_object_unref(handle);
 
-	printf("%dx%d\n", dim.width, dim.height);
+	printf("width:%d\nheight:%d\n", dim.width, dim.height);
 	
 }
